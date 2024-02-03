@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-//import { HomeScreen } from './Pages/HomeScreen';
+import { HomeScreen } from './app/Pages/HomeScreen';
 //import HomeScreen from './Pages/HomeScreen/HomeScreen';
-import HomeScreen from './app/Pages/HomeScreen/HomeScreen';
+//import HomeScreen from './app/Pages/HomeScreen/HomeScreen';
 
 const App = () =>{
   const user ={
