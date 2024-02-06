@@ -2,7 +2,6 @@ import axios from "../../Helpers/axios";
 import React, { useEffect, useState } from "react";
 import "./Banner.css";
 import requests from "../../Helpers/request";
-
 const Banner = () => {
   const [movie, setMovie] = useState([]);
 
@@ -14,7 +13,7 @@ const Banner = () => {
         request.data.results[
           Math.floor(Math.random() * request.data.results.length - 1)
         ]
-      );
+      );0
       return request;
     };
     fetchData();
@@ -25,7 +24,6 @@ const Banner = () => {
   function truncate(string, n) {
     return string?.length > n ? string.substr(0, n - 1) + "..." : string;
   }
-
   return (
     <header
       className="banner"
@@ -49,7 +47,6 @@ const Banner = () => {
           {truncate(movie?.overview, 150)}
         </h1>
       </div>
-
       <div className="banner--fadeBottom" />
     </header>
   );
