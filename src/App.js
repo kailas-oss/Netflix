@@ -1,25 +1,25 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HomeScreen } from './app/Pages/HomeScreen';
+import "./App.css"
+import ProfileScreen from "./app/Pages/ProfileScreen/ProfileScreen"
+import LoginScreen from './app/Pages/LoginScreen/LoginScreen';
+import HomeScreen from './app/Pages/HomeScreen';
 
 const App = () =>{
-  const user ={
-    name:"john",
-    email:"john@gmail.com",
-    pass:"john123"
-  }
+  const user =null
   return (
     <div className="app">
       
       <Router>
          {
           !user ?(
-          <h1>Login Screen</h1>
+         <LoginScreen/>
           ):(
             /* accessing parent and child relationship using route*/
           <Routes>
+            <Route path="/profile"element={<ProfileScreen/>}/>
 
-          <Route path="/" element={<HomeScreen />}/>
+          <Route path="/" element={ <HomeScreen />}/>
           </Routes>
          )}
          </Router>
