@@ -1,6 +1,11 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .row {
+  background-color: black;
     color:white;
-    margin-left: 20px;
+    margin-left: 0px;
   }
   
   .row__posters {
