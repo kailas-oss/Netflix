@@ -13,13 +13,11 @@ const Banner = () => {
         request.data.results[
           Math.floor(Math.random() * request.data.results.length - 1)
         ]
-      );0
+      );
       return request;
     };
     fetchData();
   }, []);
-
-  console.log(movie);
 
   function truncate(string, n) {
     return string?.length > n ? string.substr(0, n - 1) + "..." : string;
@@ -28,8 +26,6 @@ const Banner = () => {
     <header
       className="banner"
       style={{
-        // backgroundImage: `url('https://i.imgur.com/g0jXdZC.jpg')`,
-        // backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Black_flag.svg/1200px-Black_flag.svg.png')`,
         backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
         backgroundSize: "cover",
         backgroundPosition: "center center",

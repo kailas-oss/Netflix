@@ -1,9 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HomeScreen } from './app/Pages/HomeScreen';
-//import HomeScreen from './Pages/HomeScreen/HomeScreen';
-//import HomeScreen from './app/Pages/HomeScreen/HomeScreen';
-import "./App.css"
+
 const App = () =>{
   const user ={
     name:"john",
@@ -18,6 +16,7 @@ const App = () =>{
           !user ?(
           <h1>Login Screen</h1>
           ):(
+            /* accessing parent and child relationship using route*/
           <Routes>
 
           <Route path="/" element={<HomeScreen />}/>
