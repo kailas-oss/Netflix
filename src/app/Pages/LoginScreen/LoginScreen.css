@@ -1,0 +1,29 @@
+.loginScreen_logo{
+    position:fixed;
+    top:10px;
+    width:80px;
+    left: 0;
+    background-size: cover;
+    object-fit: contain;
+    padding-left: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.loginScreen_button{
+    background-color: red;
+    padding: 3px;
+    margin-right: 30px;
+    border-radius:2px ;
+    position:fixed;
+    top:10px;
+    width:70px;
+    right: 0;
+    object-fit:content;
+    padding-left: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.loginScreen_body{
+    color:white;
+    width:70px;
+}
