@@ -25,5 +25,49 @@
 }
 .loginScreen_body{
     color:white;
-    width:70px;
+    
+    top: 35%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0%;
+    right: 0;
+    position: absolute;
+    padding: 25px;
 }
+.loginScreen_gradient{
+    width: 100%;
+   z-index: 1;
+   
+   background: rgba(0, 0, 0);
+   background-image: linear-gradient(to top);
+}
+.loginScreen{
+    background-size: cover;
+    position: relative; 
+  
+}
+.loginScreen_body > h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+} 
+.loginScreen_body > h2 {
+    margin-bottom: 20px;
+}
+.loginScreen_input{
+    margin-top: 15px;
+}
+.loginScreen_input > form > input {
+    height: 35px;
+    max-width: 60%;
+    width: 25%;
+    padding: 10px, 12px;
+    border: none;
+}
+.loginScreen_getStarted{
+    background-color: red;
+    height: 39px;
+padding: 4px 10px 6px;
+  color: white;
+  cursor: pointer;
+ }
