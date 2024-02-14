@@ -5,9 +5,7 @@ const LoginScreen = () => {
     const [signIn,setSignIn] = useState(false)
   return(
   <div className="loginScreen">
-    <img className='loginBackground'
-     src="https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png" 
-       alt='' />
+    
     <div className='loginScreen_background'>
         <img className='loginScreen_logo'
      src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1597px-Netflix_2015_logo.svg.png" 
@@ -40,6 +38,6 @@ const LoginScreen = () => {
     </div>
   </div>
   )
-}
+  }
 
 export default LoginScreen
