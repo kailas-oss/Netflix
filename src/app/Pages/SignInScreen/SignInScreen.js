@@ -16,4 +16,6 @@ const SignInScreen = () => {
   )
 }
 
-export default SignInScreen
+//export default SignInScreen;
+//export { SignInScreen };
+export default SignInScreen;

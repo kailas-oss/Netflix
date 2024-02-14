@@ -9,9 +9,7 @@ export const HomeScreen = () => {
   return (
     <div className="homeScreen">
       <Nav />
-
       <Banner />
-
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}

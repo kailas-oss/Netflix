@@ -1,5 +1,8 @@
 import React,{ useState } from 'react'
 import "./LoginScreen.css"
+//import SignInScreen from '../../SignInScreen/signIn'
+//import SignInScreen from '../../../SignInScreen/SignInScreen';
+import SignInScreen from '../SignInScreen/SignInScreen'
 
 const LoginScreen = () => {
     const [signIn,setSignIn] = useState(false)
@@ -17,7 +20,10 @@ const LoginScreen = () => {
             <div className='loginScreen_body'>
                 {
                     signIn ? (
-                        <signInScreen/>
+                      //<h1>kails</h1>
+                        <SignInScreen/>
+                        
+                        
                     ) : (
                         <>
                         <h1>Unlimited files, TV programes and more.</h1>
@@ -40,4 +46,4 @@ const LoginScreen = () => {
   )
   }
 
-export default LoginScreen
+export default LoginScreen;

@@ -1,0 +1,10 @@
+.signinScreen{
+    background-color: black;
+    padding-top: 14%;
+    padding-bottom: 14%;
+    padding-left:-14% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
