@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import "./SignInscreen.css";
-import {
+/*import {
   createUserWithEmailAndPassword
   
 } from "firebase/auth";
-import { auth } from "../../firebase";
+import { auth } from "../../firebase";*/
 
 const SignInScreen = () => {
   const [email,setEmail] =useState("")
   const [password,setPassword]= useState("")
   
-  const register = (e) => {
+  /*const register = (e) => {
     e.preventDefault();
 
     createUserWithEmailAndPassword(
@@ -24,7 +24,7 @@ const SignInScreen = () => {
       .catch((error) => {
         alert(error.message);
       });
-  };
+  };*/
 
   
  
@@ -40,7 +40,7 @@ const SignInScreen = () => {
 
         <h4>
           <span className="signinScreen_gray">New to Netflix? </span>
-          <span className="signinScreen_link" onClick={register}>
+          <span className="signinScreen_link" /*onClick={register}*/>
             Sign Up now
           </span>
         </h4>
