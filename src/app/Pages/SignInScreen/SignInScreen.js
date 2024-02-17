@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./SignInScreen.css";
+import "./SignInscreen.css";
 import HomeScreen from "../HomeScreen";
 
 const SignInScreen = () => {
