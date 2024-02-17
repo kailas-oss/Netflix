@@ -11,10 +11,11 @@ const SignInScreen = () => {
     e.preventDefault();
     if (email === "kkailas113@gmail.com" && password === "12345") {
       setLoggedIn(true);
-      console.log("Email matches password. Redirecting to homepage...");
-      console.log("kailas");
+     // console.log("Email matches password. Redirecting to homepage...");
+      //console.log("kailas");
     } else {
-      console.log("Email does not match password.");
+      alert("Please enter correct email and password");
+     // console.log("Email does not match password.");
     }
   };
 
