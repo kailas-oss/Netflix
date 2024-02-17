@@ -9,7 +9,7 @@ const SignInScreen = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (email === "kkailas113@gmail.com" && password === "12345") {
+    if (email === "kkailas113@gmail.com" ||email==="steffindhas@gmail.com" && password === "12345") {
       setLoggedIn(true);
      // console.log("Email matches password. Redirecting to homepage...");
       //console.log("kailas");
