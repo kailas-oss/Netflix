@@ -1550,9 +1550,15 @@
   integrity sha512-dZMzN0uAjwJXWYYAcnxIwXqRTZw3o14hGe7O6uhwjD1ZQWPVYA5lASgnNskEBra0knVBsOXB4KXg+HnlKewN/A==
 
 "@grpc/grpc-js@^1.3.2":
+<<<<<<< HEAD
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.10.1.tgz#be450560c990c08274bc19d514e181ea205ccaa8"
   integrity sha512-55ONqFytZExfOIjF1RjXPcVmT/jJqFzbbDqxK9jmRV4nxiYWtL9hENSW1Jfx0SdZfrvoqd44YJ/GJTqfRrawSQ==
+=======
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.10.0.tgz#23b5defd6a021a20924b4baca2dd1b3a3ecc3716"
+  integrity sha512-tx+eoEsqkMkLCHR4OOplwNIaJ7SVZWzeVKzEMBz8VR+TbssgBYOP4a0P+KQiQ6LaTG4SGaIEu7YTS8xOmkOWLA==
+>>>>>>> 11c1f6518ae8acab7936b2a6dfc9f975d4ac2872
   dependencies:
     "@grpc/proto-loader" "^0.7.8"
     "@types/node" ">=12.12.47"
@@ -5071,7 +5077,11 @@ find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
+<<<<<<< HEAD
 firebase@^8.7.0:
+=======
+firebase@^8.8.0:
+>>>>>>> 11c1f6518ae8acab7936b2a6dfc9f975d4ac2872
   version "8.10.1"
   resolved "https://registry.yarnpkg.com/firebase/-/firebase-8.10.1.tgz#4915b47f2905c56b905a232dbd109c3c04a8fa8f"
   integrity sha512-84z/zqF8Y5IpUYN8nREZ/bxbGtF5WJDOBy4y0hAxRzGpB5+2tw9PQgtTnUzk6MQiVEf/WOniMUL3pCVXKsxALw==
