@@ -8,11 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.5.2",
     "axios": "^1.6.7",
-<<<<<<< HEAD
     "firebase": "^8.7.0",
-=======
-    "firebase": "^8.8.0",
->>>>>>> 11c1f6518ae8acab7936b2a6dfc9f975d4ac2872
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.3",
