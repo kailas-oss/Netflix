@@ -1,12 +1,15 @@
 import React from 'react'
 import Banner from '../../components/Banner/Banner'
 import "./HomeScreen.css"
-import { Nav } from '../../components/Nav'
+import Nav  from '../../components/Nav'
 import Row from '../../components/Row/row '
 import requests from '../../Helpers/request'
+//import SignInScreen from './SignInScreen/SignInScreen'
 
 export const HomeScreen = () => {
   return (
+    
+
     <div className="homeScreen">
       <Nav />
       <Banner />
@@ -16,6 +19,14 @@ export const HomeScreen = () => {
         
         isLarge
       />
+      <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
+      <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
+      <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
+      <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
+      <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
+      <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
+      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
